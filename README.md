@@ -30,4 +30,4 @@ export default Index
 ```
 
 
-![alt text](./assets/image.png)
+![alt text](./image.png)
