@@ -1,6 +1,6 @@
 {
   "name": "react-native-markdown-math-view",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React native Markdown renderer that supports mathematical formulas and renders them into SVG",
   "main": "src/index.js",
   "types": "src/index.d.js",
