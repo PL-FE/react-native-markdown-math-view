@@ -1,12 +1,40 @@
 {
-  "name": "MarkdownMathView",
+  "name": "react-native-markdown-math-view",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "React native Markdown renderer that supports mathematical formulas and renders them into SVG",
+  "main": "src/index.js",
+  "types": "src/index.d.js",
+  "type": "module",
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PL-FE/react-native-markdown-math-view"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "react",
+    "react-native",
+    "native",
+    "markdown",
+    "commonmark",
+    "markdown-it",
+    "math",
+    "svg"
+  ],
+  "author": "PengLiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PL-FE/react-native-markdown-math-view/issues"
+  },
+  "homepage": "https://github.com/PL-FE/react-native-markdown-math-view/",
+  "dependencies": {
+    "markdown-it-math": "^4.1.1",
+    "react-native-markdown-display": "^7.0.2",
+    "react-native-svg": "^15.11.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.2.0",
+    "react-native": ">=0.50.4"
+  }
 }
