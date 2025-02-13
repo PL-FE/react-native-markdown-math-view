@@ -1,3 +1,10 @@
+# react-native-markdown-math-view
+
+## 说明
+
+将markdown中的数学公式渲染成SVG,而不是使用webview
+支持行内分隔符`$...$`、`\\(...\\)` 和块分隔符`$$...$$`、`\\[...\\]`
+
 ## 案例数据
 
 
